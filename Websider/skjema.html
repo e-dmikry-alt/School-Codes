@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table, th, td {
+        border: 1px solid rgb(37, 3, 138);
+        border-collapse: collapse; /* Убирает двойные рамки, делая их тонкими */
+    }
+    th, td {
+        padding: 8px; /* Добавляет отступы внутри ячеек, чтобы текст не прилипал */
+    }
+</style>
+</head>
+
+<body>
+    <h1>Skjema</h1>
+<!-- Her kjem oppsetet til eit skjema/form -->
+<form method="get" action="form.html">
+    Navn: <br>
+    <input type="text" name="fornavn" maxlength="12" placeholder="Dit Navn">
+    <br>
+    Epost: <br>
+    <input type="email" name="epostadresse" placeholder="Dit email">
+    <br>
+    Passord:
+    <input type="passord" name="passord" placeholder="Dit passord">
+    <input type="submit">
+<table style="border-width: 100%">
+<tr>
+    <td>Navn</td>
+    <td><input type="Navn" name="navn" placeholder="Dit Navn"></td>
+</tr>
+    <td>Alder</td>
+    <td><input type="Alder" name="Alder" placeholder="Dit Alder"></td>
+<tr> 
+    <td>Epost</td>
+    <td><input type="Epost" name="Epost" placeholder="Dit Epost"></td>
+</tr>
+        
+
+</table>
+
+<a href="index.html"> tilbake </a>
+
+
+</form>
+</body>
+</html>
